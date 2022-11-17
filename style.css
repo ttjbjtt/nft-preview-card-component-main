@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+}
+
+html{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+
+.container{
+    width: 375px;
+    border-radius: 20px;
+    padding: 1.5rem;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.picture{
+    position:relative;
+    
+}
+
+.picture img{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.eye{
+    
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    padding: 8.75rem 8.75rem;
+    border-radius: 20px;
+    opacity:0;
+}
+.picture:hover .eye{
+    opacity:1;
+  }
+
+h2{
+    cursor: pointer;
+    color: white;
+    padding: 1rem 0 1rem 0 ;
+}
+
+h4{
+    color: hsl(215, 51%, 70%);
+    padding: 1rem 0 1rem 0 ;
+}
+
+.eth-day{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 2rem 0 ;
+}
+
+.eth{
+    
+    color: hsl(178, 100%, 50%);
+}
+
+.day{
+    color: hsl(215, 51%, 70%);   
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+    padding: 1rem 0 1rem 0 ;
+    border-top:1px solid gray;
+}
+
+.face{
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.creation{
+    justify-content: center;
+    color: hsl(215, 51%, 70%);
+    margin: 0.5rem 0.5rem 0 1rem;
+}
+
+.name{
+    cursor: pointer;
+    color: white;
+    margin: 0.5rem 0 0 0 ;
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
